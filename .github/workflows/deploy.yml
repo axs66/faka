@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # 当 main 分支有提交时自动部署
+  workflow_dispatch:  # 手动运行也支持
 
 jobs:
   deploy:
