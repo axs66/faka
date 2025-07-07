@@ -1,4 +1,9 @@
+# macOS 系统文件
 .DS_Store
+
+# 忽略压缩包（上传已解压内容）
 *.tar.gz
 *.zip
+
+# VSCode 设置目录（如不需共享）
 .vscode/
